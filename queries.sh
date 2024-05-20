@@ -41,3 +41,4 @@ echo "$($PSQL "SELECT year, name FROM teams JOIN games ON teams.team_id = games.
 
 echo -e "\nList of teams that start with 'Co':"
 echo "$($PSQL "SELECT name FROM teams WHERE name LIKE 'Co%' ORDER BY name")"
+
